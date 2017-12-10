@@ -38,8 +38,8 @@ My local station runs following distribution: Ubuntu 16.04.2 LTS.
 Firstly, I needed to set up tools for this assignment since my locl station is new. I was missing VirtualBox, Vagrant and Ansible.
 
 Here are the official links on HowTo so I do not end up making this longer than needed:
--https://www.virtualbox.org/wiki/Linux_Downloads
--https://www.vagrantup.com/docs/installation/
--http://docs.ansible.com/ansible/latest/intro_installation.html#installing-the-control-machine
+- https://www.virtualbox.org/wiki/Linux_Downloads
+- https://www.vagrantup.com/docs/installation/
+- http://docs.ansible.com/ansible/latest/intro_installation.html#installing-the-control-machine
 
 Now that I had everything, I had to set up Vagrant file that would load my VirtualBox. I am choosing CentOS 7 here, as I use it more than Ubuntu or any other distribution.

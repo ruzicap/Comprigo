@@ -8,9 +8,7 @@ Assignment
 
 - A Vagrantfile for managing a VM with a Linux-based OS of your choice. Use a publicly available box.
 - A provisioner (Ansible, Chef, Puppet, Salt) to manage the configuration of the services in the Vagrantfile.
-
 ###### Provisioned services:
-
 - HAProxy
     * Configure SSL termination on frontend
     * Create a self-signed certificate or use LetsEncrypt, also document the commands you are using to create the certificate
@@ -32,7 +30,6 @@ Assignment
   	* Create a Timer Unit File to execute a self written script by yourself (bash, python, ..) every 5 minutes to load some dummy data into Redis (can be simple key/value i.e. hello/world)
 - MySQL
  	 * Create a simple website to serve with php-fpm that displays the string 'Hello World'
-
 ###### Write your explanations and documentations into the Readme
 ====================
 
